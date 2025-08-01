@@ -11,6 +11,8 @@ spec:
     repoURL: https://github.com/kirshiyin89/platform-apps.git
     targetRevision: HEAD
     path: apps
+    directory:
+      recurse: true
   destination:
     server: https://kubernetes.default.svc
     namespace: argocd
